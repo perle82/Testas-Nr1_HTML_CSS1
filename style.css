@@ -1,0 +1,141 @@
+header{
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+}
+header img{
+    width: 7rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+header input{
+    background-color: white;
+    background-image: url("/search.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0.5rem ;
+    padding-left: 2rem;
+    padding-top: 0.2rem;
+    color: rgb(36, 33, 33);
+    border: none;
+}
+.hero{
+    background: url("/melyna_spalva.jpg");
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+}
+
+.hero h2{
+    color: rgb(207, 183, 183);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 1rem; */
+    /* padding-bottom: 2rem; */
+}
+
+.content img{
+    border-radius: 50%;
+    max-width: 55%;
+    max-height: 50%;
+    padding: auto; 
+    object-fit: cover;
+} 
+
+.mountains{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+}
+.content h3{
+    color: rgb(40, 40, 102);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.contacts{
+padding: 2.5rem;
+display: flex;
+text-align: center;
+align-items:stretch;
+justify-content:flex-start;
+gap: 6rem;
+}
+
+.kaimas img{
+    border-radius: 50%;
+    max-width: 48%;
+    max-height: 48%;
+   
+}
+.maciu-pikciu img{
+    border-radius: 50%;
+    max-width: 48%;
+    max-height: 48%;
+}
+
+footer{
+    background-color: rgb(185, 184, 184);
+    display: flex;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 8rem;
+    text-align:center;
+    border-top: 0.5rem solid rgb(224, 199, 152);
+    line-height: 1.5rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}     
+
+.Zakopane{
+    padding: 0;
+    margin: 0;
+}
+
+.email1{
+    margin-top: 0;
+}
+.email2{
+    margin: 0;
+}
+.telephone2{
+    margin-top: 0;
+}
+.link > a {
+    text-decoration: none;
+    color: black;
+}
+.Maciu-pikciu{
+    padding: 0;
+    margin: 0;
+}  
+
+@media only screen and (min-width: 992px) { 
+    header{ 
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px;
+    }
+}
+
+.logo {
+    padding: 0;
+}
+.content {
+    margin-top: -7.5rem;
+}
+.contacts{
+    flex-direction: row;
+}
